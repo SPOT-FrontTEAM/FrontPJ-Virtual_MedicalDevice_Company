@@ -1,0 +1,258 @@
+/* NavBar & Footer Setting */
+.LandingPage .Nav {
+  position: fixed;
+  z-index: 2 !important;
+  top: 0 !important;
+  left: 0 !important;
+}
+.Footer {
+  background-image: url("./../../../utils/img/footersample.png");
+  background-size: cover;
+}
+.footerScroll {
+  height: 5vh;
+  background-color: #545454;
+  display: flex;
+  align-items: center;
+}
+.footerScroll .scrollButton {
+  width: 60%;
+  height: 60%;
+  background-color: #a09e9e;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+}
+/* swiper Setting */
+.swiper {
+  height: 95vh;
+}
+.swiper .swiper-pagination {
+  position: absolute;
+  bottom: 1%;
+}
+.swiper .swiper-pagination-bullet {
+  background-color: #0057a4;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.section_1 {
+  background-image: url("./../../../utils/img/back/back2.jpg");
+  background-size: cover;
+}
+.section_2 {
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.8),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("./../../../utils/img/back/city2.jpg");
+  background-size: cover;
+}
+.section_3 {
+  position: absolute;
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0),
+      rgba(255, 255, 255, 0.1)
+    ),
+    url("./../../../utils/img/back/city1.jpeg");
+  background-size: cover;
+}
+.section_4 {
+  background-image: url("./../../../utils/img/back/back4.jpg");
+  background-size: cover;
+}
+/* LandingPage Section */
+/* Common __ LandingInfo  */
+.LandingInfoTitle {
+  margin-bottom: 40px;
+}
+.LandingInfoTitle h1 {
+  color: #fefefedf;
+  font-size: 4rem;
+  text-shadow: 1px 1px 1px gray;
+}
+.LandingInfoTitle h3 {
+  text-align: left;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  color: #fefefedf;
+  text-shadow: 1px 1px 1px gray;
+}
+
+.LandingInfoTitle .inFoDivisionLine {
+  width: 10%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  border-bottom: #fefefedf solid 2px;
+}
+/* LandingExplainSection */
+.LandingExplainSection {
+  width: 90%;
+}
+.explainColum {
+  display: flex;
+  justify-content: space-between;
+}
+
+.columBack {
+  aspect-ratio: 18 / 11;
+  width: 33%;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  transition: all 0.2s linear;
+  cursor: pointer;
+
+  border-radius: 3px;
+
+  box-shadow: 3px 2px 15px 3px #0e0e0e;
+}
+.columBack:hover {
+  margin-top: 0px;
+  margin-bottom: 20px;
+}
+.infoWrapper {
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  display: flex;
+}
+.infoWrapper:hover {
+  transform: scale(1.2);
+}
+.columBack .columInfo {
+  width: 100%;
+}
+.columBack .columInfo h1 {
+  font-size: 2rem;
+  color: #fff;
+  text-shadow: 1px 1px 1px gray;
+}
+.columBack .columInfo p {
+  color: #fff;
+  text-shadow: 1px 1px 1px gray;
+}
+.colum1 {
+  background-image: url("./../../../utils/img/introduce.jpg");
+  background-size: cover;
+}
+.colum1:hover {
+  background-image: url("./../../../utils/img/introduce_hover.jpeg");
+  background-size: cover;
+}
+.colum2 {
+  background-image: url("./../../../utils/img/map.jpg");
+  background-size: cover;
+}
+.colum2:hover {
+  background-image: url("./../../../utils/img/map_hover.jpeg");
+  background-size: cover;
+}
+.colum3 {
+  background-image: url("./../../../utils/img/ask.jpg");
+  background-size: cover;
+}
+.colum3:hover {
+  background-image: url("./../../../utils/img/ask_hover.jpeg");
+  background-size: cover;
+}
+/* Landing IR Section */
+.IrContentsWrapper {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: gray;
+  opacity: 0.5;
+}
+
+.IrContents {
+  background-color: transparent;
+  position: relative;
+  width: 100vmax;
+}
+
+.IrSwiper {
+  width: 90vmax;
+  height: 25vh;
+}
+
+.IrSwiperContent {
+  background-color: transparent;
+}
+.IrSliderContent {
+  width: 100%;
+  height: 100%;
+
+  object-fit: contain;
+
+  transition: transform 450ms;
+  border-left: gray solid 2px;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  padding-left: 50px;
+  padding-right: 50px;
+
+  position: relative;
+  cursor: pointer;
+}
+.IrSliderContent:hover {
+  background-color: gray;
+}
+.IrSliderContent .IrDate {
+  position: absolute;
+  top: 0;
+
+  background-color: #0057a4;
+  width: 40%;
+  height: 20%;
+  color: #fff;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  z-index: 2;
+}
+
+.IrSliderContent .Irtitle {
+  color: #fff;
+  text-align: left;
+}
