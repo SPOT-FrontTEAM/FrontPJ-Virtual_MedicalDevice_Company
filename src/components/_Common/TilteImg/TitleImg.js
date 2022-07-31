@@ -1,9 +1,10 @@
-import React from 'react';
+import React from "react";
+import "./TitleImg.css";
 
-const TitleImg = () => {
+const TitleImg = ({ title, type }) => {
   return (
-    <div>
-      
+    <div className={["TitleImg", `img_${type}`].join(" ")}>
+      <h1>{title}</h1>
     </div>
   );
 };
