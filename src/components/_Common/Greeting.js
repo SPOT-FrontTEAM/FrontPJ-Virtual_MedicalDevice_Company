@@ -1,9 +1,10 @@
 import React from 'react';
 
-const Greeting = () => {
+const Greeting = ({title, content}) => {
   return (
-    <div>
-      
+    <div className='Greeting'>
+      <h1 className='title'>{title}</h1>
+      <div className='v-line' />
     </div>
   );
 };
