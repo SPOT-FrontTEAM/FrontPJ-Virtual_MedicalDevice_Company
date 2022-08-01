@@ -11,6 +11,7 @@ import Footer from "./components/_Common/Footer/Footer";
 import IrPage from "./components/IrPage/IrPage";
 
 function App() {
+    <BrowserRouter>
   return (
     <BrowserRouter>
       <div className="App">
