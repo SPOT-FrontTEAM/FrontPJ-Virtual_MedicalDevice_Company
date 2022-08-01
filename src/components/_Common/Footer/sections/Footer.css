@@ -1,0 +1,39 @@
+.footerPage{
+    min-height: 10rem;
+    background-color: rgb(34, 33, 33);
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footerPage_Set img{
+    width: 7rem;
+    height: 2.5rem;
+    margin-top: 0.8rem;
+}
+.footerPage_Set{
+    display: flex;
+    margin-left: 7rem;
+}
+
+.footerPage_Set-text{
+    color:white;
+    line-height: 1.2rem;
+    margin-left: 8rem;
+    font-size: small;
+}
+
+.footerPage_Set-textin{
+    line-height: 2.5rem;
+    color:rgba(255, 255, 255, 0.712);
+}
+
+.footerPage_Select-in{
+    height: 2.5rem;
+    width: 14rem;
+    color: gray;
+    border: 1px solid #999;
+    background-color: rgb(34, 33, 33);
+    padding-left: 0.5rem;
+  
+}
