@@ -1,0 +1,114 @@
+.LadingPage {
+  height: 52rem;
+  z-index: 1;
+}
+.landingSwiper {
+  width: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.sliderWrapper {
+  position: relative;
+  width: 100%;
+  height: 40rem;
+  text-align: center;
+
+}
+.landingPage_Set-list{
+   width: 70%;
+   padding-left: 16rem;
+   position: inherit;
+   z-index: 2;
+   margin-bottom: 1rem;
+   
+}
+.landingPage_Set-listitems{
+    color:rgba(255, 255, 255, 0.712);
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgba(68, 66, 66,0.8);
+    height: 9rem;
+    vertical-align : middle;
+   
+}
+
+.landingPage_Set-listitems li{
+    display: inline-block;
+    margin-right: 5rem;
+    padding-top: 1rem;
+   
+ }
+
+ .list-image{
+    display: block;
+    margin-bottom:5px;
+   
+ }
+ .connectNumber{
+    color:rgba(255, 255, 255, 0.712); 
+    margin-right: 8rem;
+    margin-bottom: 2rem;
+    float: right;
+    font-size: 1.1rem;
+    position: inherit;
+    z-index: 2;
+ }
+ .imageExplain{
+    position: absolute;
+    z-index: 2;
+    margin-left: 20rem;
+    margin-top: 18rem;
+   font-size: 2rem;
+   color: navy;
+ }
+ .landing_Set-bnt{
+    position: absolute;
+    z-index: 2;
+    border-radius: 2rem;
+    background-color: transparent;
+    width: 12rem;
+    height: 3rem;
+    color: aliceblue;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border: 1.5px solid white;
+ }
+ /* 더보기 버튼 올릴때 */
+ .landing_Set-bnt:hover{
+    position: absolute;
+    z-index: 2;
+    border-radius: 2rem;
+    background-color: transparent;
+    width: 12rem;
+    height: 3rem;
+    color: aliceblue;
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    border: 1.5px solid white;
+    cursor: pointer;
+ }
+ /* 더보기 버튼 누를때 */
+ .landing_Set-bnt:active {
+
+    box-shadow: inset -.3rem -.1rem 1.4rem  #FBFBFB, inset .3rem .4rem .8rem #BEC5D0; 
+    cursor: pointer;
+
+}
+ .imageExplain-head{
+    font-size: 3rem;
+ }
+ .imageExplain div{
+    color:white;
+ }
+ /* Slide 3 */
+ .imageExplain-3{
+    position: absolute;
+    z-index: 2;
+    margin-left: 32rem;
+    margin-top: 18rem;
+   font-size: 2rem;
+   color: navy;
+ }
+ .imageExplain-3 div{
+    color:white;
+ }

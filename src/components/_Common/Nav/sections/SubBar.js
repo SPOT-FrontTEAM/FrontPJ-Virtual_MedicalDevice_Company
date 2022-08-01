@@ -1,9 +1,20 @@
 import React from 'react';
+import './Nav.css'
 
-const SubBar = () => {
+const SubBar = (props) => {
+
+  switch ("{props.name}") {
+    case "company":
+      console.log("company")
+      break;
+  
+    default:
+      break;
+  }
+
   return (
-    <div>
-      
+    <div className='SubBar'>
+ 
     </div>
   );
 };
