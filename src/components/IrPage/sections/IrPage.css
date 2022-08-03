@@ -1,0 +1,56 @@
+/* IrContents */
+
+.IrContents {
+    width: 100%;
+  }
+  
+  .IrWrapper {
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .postSection {
+    display: grid;
+  
+    grid-template-columns: repeat(6, 15%);
+    column-gap: 10px;
+    row-gap: 10px;
+  
+    justify-content: center;
+  
+    margin-top: 10px;
+    margin-bottom: 25px;
+  }
+  .contentsLen {
+    text-align: right;
+    padding-right: 3%;
+    font-weight: 400;
+  }
+  /* IrPost */
+  .IrPost {
+    aspect-ratio: 1/1;
+    background-color: #eeeeee;
+    cursor: pointer;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  .IrPost:hover {
+    background-color: #265384;
+    color: #eeeeee;
+  }
+  .IrPostTitle {
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .IrPostDate {
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 0.8rem;
+    color: #9e9e9e;
+  }
+  
+  
+  

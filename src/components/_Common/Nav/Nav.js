@@ -1,35 +1,18 @@
-import React,{useEffect,useState} from 'react'
+import React from 'react'
 import "./sections/Nav.css"
 import "./sections/SubBar"
-import SubBar from './sections/SubBar';
+import { useNavigate } from "react-router-dom";
+
 
 const Nav = () => {
 
-  // 스크롤
-  const [scrollPosition, setScrollPosition] = useState(0);
-     
-     useEffect(() => {
-       window.addEventListener('scroll', handleScroll, { capture: true }); // 스크롤 이벤트 등록
-       return () => {
-         window.removeEventListener('scroll', handleScroll); // 스크롤 이벤트 등록 제거(성능저하방지)
-       };
-     }, []);
-
-     const handleScroll = () => {
-      setScrollPosition(window.scrollY || document.documentElement.scrollTop); // 스크롤 현재 위치 
-  }
- 
-  // // subbar
-  // const onMouseOverHandler= () => {
-  //     console.log("회사소개");
-  //     <SubBar />
-  // } 
+  const navigate = useNavigate();
 
   return (
-    // 스크롤 head높이(30)보다 클때 nav보이게
-    <div className={scrollPosition > 30 ? "navPage-true" : "navPage-false"}> 
+   
+    <div className="navPage-true"> 
       <div className='navPage_Set'>
-        <img alt="Logo" src="images/Logo1.png" />
+        <img alt="Logo" src="images/Logo1.png" onClick={()=>navigate("/")}/>
       </div>
       <div className='navPage_Set-list'>
         <ul className='navPage_Set-listitems'>
@@ -45,7 +28,7 @@ const Nav = () => {
           </li>
          
           <li >
-          <a href="ir">IR</a>
+          <a href="ir" onClick={() => navigate("/ir")}>IR</a>
           <div className='subBar_Set'>
             <ul className='subBar_Set-list'>
               <li><a href="ir">경영정보</a></li>
@@ -68,7 +51,7 @@ const Nav = () => {
            </li>
         </ul>
       </div>
-        <button className={scrollPosition > 30 ? 'navPage_siteMap-bnt': 'false'}>SITEMAP</button>
+        <button className= 'navPage_siteMap-bnt'>SITEMAP</button>
     </div>
   );
 };
