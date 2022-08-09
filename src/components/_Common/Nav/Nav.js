@@ -78,7 +78,12 @@ const Nav = () => {
                   >
                     경영정보
                   </article>
-                  <article className="list_item">주주 공지사항</article>
+                  <article
+                    className="list_item"
+                    onClick={() => navigate("/irnotice")}
+                  >
+                    주주 공지사항
+                  </article>
                 </div>
               </section>
             </li>
