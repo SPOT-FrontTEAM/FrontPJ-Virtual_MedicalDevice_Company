@@ -5,11 +5,12 @@ import Divide from "../../_Common/Divide";
 import CompanyIntroduceList from "./CompanyIntroduceList";
 
 const Strategy = () => {
+  const check = "5";
   return (
     <div>
       <Nav />
       <TitleImg title="지속가능경영" type="Direction" />
-      <CompanyIntroduceList />
+      <CompanyIntroduceList check={check} />
       <Divide division="회사소개" section="지속가능경영" />
       <div className="strategy-back">
         <div className="strategy-back1img"></div>
