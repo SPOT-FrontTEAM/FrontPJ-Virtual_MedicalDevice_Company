@@ -5,11 +5,13 @@ import Divide from "../../_Common/Divide";
 import CompanyIntroduceList from "./CompanyIntroduceList";
 
 const Management = () => {
+  const check = "4";
+
   return (
     <div>
       <Nav />
       <TitleImg title="준법경영" type="Direction" />
-      <CompanyIntroduceList />
+      <CompanyIntroduceList check={check} />
       <Divide division="회사소개" section="준법경영" />
       <div className="management-back">
         <div className="management-back1img"></div>

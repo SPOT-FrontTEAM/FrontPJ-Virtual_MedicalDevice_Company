@@ -53,7 +53,7 @@ const CompanyDirections = () => {
       <Divide division="회사소개" section={title} />
       <div className="company">
         <h1 className="companyName">삼성메디슨 강동 사업장</h1>
-        <div id="map" style={{ width: "1490px", height: "450px" }}></div>
+        <div id="map" style={{ width: "100%", height: "450px" }}></div>
         <div className="companyAddress">
           <h2>주소</h2>
           <p>서울시 강동구 천호대로 1077 이스트센트럴타워 삼성메디슨</p>

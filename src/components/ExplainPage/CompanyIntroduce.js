@@ -7,16 +7,23 @@ import CompanyIntroduceList from "./sections/CompanyIntroduceList";
 import "./sections/ExplainPage.css";
 
 const CompanyIntroduce = () => {
+  const check = "1";
   return (
     <div className="introducePage">
       <Nav />
       <TitleImg title="기업개요" type="Direction" />
-      <CompanyIntroduceList />
+      <CompanyIntroduceList check={check} />
       <Divide division="회사소개" section="기업개요" />
       <Greeting title="삼성메디슨" />
       <div className="introduce-back">
-        <div className="introduce-back1img"></div>
-        <div className="introduce-back2img"></div>
+        <div className="imgBlock">
+          <div className="introduce-back1img"></div>
+          <div className="introduce-back2img"></div>
+        </div>
+        <div className="imgBlock">
+          <div className="introduce-back3img"></div>
+          <div className="introduce-back4img"></div>
+        </div>
       </div>
       <p>
         삼성메디슨의 제품 및 관련 서비스 정보는{" "}

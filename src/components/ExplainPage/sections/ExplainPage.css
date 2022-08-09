@@ -56,6 +56,13 @@
   border-bottom: 4px solid white;
 }
 
+.introduce-list .on {
+  color: rgb(92, 92, 230);
+  border-bottom: 4px solid rgb(92, 92, 230);
+}
+.introduce-list .on1 {
+  color: rgb(92, 92, 230);
+}
 .introduce-list li a {
   color: gray;
 }
@@ -68,21 +75,46 @@
   border-bottom: 4px solid rgb(92, 92, 230);
   cursor: pointer;
 }
+
+.introduce-list li:hover a {
+  color: rgb(92, 92, 230);
+}
+
 .introduce-back {
   margin: 0 200px;
 }
+.imgBlock {
+  display: flex;
+}
+
 .introduce-back1img {
-  max-width: 1300px;
-  min-height: 500px;
+  width: 50%;
+  aspect-ratio: 822 / 677;
   background-image: url("./../../../utils/img/introduce/introduce1.png");
   background-size: cover;
 }
 .introduce-back2img {
-  max-width: 1300px;
-  min-height: 500px;
+  width: 50%;
+  aspect-ratio: 822 / 677;
+
   background-image: url("./../../../utils/img/introduce/introduce2.png");
   background-size: cover;
 }
+.introduce-back3img {
+  width: 50%;
+  aspect-ratio: 822 / 677;
+
+  background-image: url("./../../../utils/img/introduce/introduce3.png");
+  background-size: cover;
+}
+.introduce-back4img {
+  width: 50%;
+  aspect-ratio: 822 / 677;
+
+  background-image: url("./../../../utils/img/introduce/introduce4.png");
+  background-size: cover;
+}
+
 .introducePage p {
   font-size: 1.2rem;
   color: gray;
@@ -121,9 +153,27 @@
   margin: 0 200px;
 }
 .ideology-back1img {
-  max-width: 1300px;
-  min-height: 700px;
+  width: 50%;
+  aspect-ratio: 815 / 421;
   background-image: url("./../../../utils/img/introduce/ideology1.png");
+  background-size: cover;
+}
+.ideology-back1-2img {
+  width: 50%;
+  aspect-ratio: 815 / 421;
+  background-image: url("./../../../utils/img/introduce/ideology1-2.png");
+  background-size: cover;
+}
+.ideology-back1-3img {
+  width: 50%;
+  aspect-ratio: 815 / 421;
+  background-image: url("./../../../utils/img/introduce/ideology1-3.png");
+  background-size: cover;
+}
+.ideology-back1-4img {
+  width: 50%;
+  aspect-ratio: 815 / 421;
+  background-image: url("./../../../utils/img/introduce/ideology1-4.png");
   background-size: cover;
 }
 .ideology-back2img {
@@ -201,4 +251,20 @@
   background-image: url("./../../../utils/img/introduce/stategy6.png");
   background-size: cover;
   margin: 70px 20px;
+}
+
+/* CompanyAsk */
+.strategy-back {
+  margin: 0 120px;
+}
+
+.ask-back1img {
+  background-image: url("./../../../utils/img/introduce/ask.png");
+  background-size: cover;
+  width: 100%;
+  height: 200px;
+}
+
+.askList {
+  display: flex;
 }

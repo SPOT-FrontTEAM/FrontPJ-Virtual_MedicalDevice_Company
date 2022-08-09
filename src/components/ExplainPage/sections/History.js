@@ -5,11 +5,12 @@ import Divide from "../../_Common/Divide";
 import CompanyIntroduceList from "./CompanyIntroduceList";
 
 const History = () => {
+  const check = "2";
   return (
     <div>
       <Nav />
       <TitleImg title="연혁" type="Direction" />
-      <CompanyIntroduceList />
+      <CompanyIntroduceList check={check} />
       <Divide division="회사소개" section="연혁" />
       <div className="history-back">
         <div className="history-back1img"></div>
