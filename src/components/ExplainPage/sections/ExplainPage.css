@@ -1,0 +1,204 @@
+/* CompanyDirectionPage */
+.companyDirectionPage {
+  min-width: 100%;
+  max-height: 100%;
+}
+.company {
+  margin: 50px 100px;
+}
+.companyName {
+  font-size: 2rem;
+  color: rgb(78, 76, 76);
+  text-align: center;
+  margin-bottom: 30px;
+}
+.companyAddress {
+  border: 1px solid gray;
+  margin-top: 10px;
+  min-width: 100%;
+}
+
+.companyAddress h2 {
+  padding: 30px 0px 5px 30px;
+  font-size: 1.2rem;
+  color: rgb(78, 76, 76);
+}
+
+.companyAddress p {
+  padding: 13px 0px 20px 30px;
+  font-size: 1rem;
+  color: rgb(133, 130, 130);
+}
+
+/* CompanyIntroduce */
+.introducePage {
+}
+
+.introduce-list {
+  min-width: 700px;
+  max-height: 62px;
+  overflow: hidden;
+  border-bottom: thin solid gray;
+  box-sizing: border-box;
+  padding-left: 80px;
+}
+.introduce-list ul {
+  font-size: 1.2rem;
+  max-height: 100px;
+  margin: 0 110px;
+  color: gray;
+}
+.introduce-list li {
+  float: left;
+  max-height: 50px;
+  font-size: 1.2rem;
+  padding: 20px 86px;
+  border-bottom: 4px solid white;
+}
+
+.introduce-list li a {
+  color: gray;
+}
+
+.introduce-list li:hover {
+  float: left;
+  max-height: 50px;
+  font-size: 1.2rem;
+  padding: 20px 86px;
+  border-bottom: 4px solid rgb(92, 92, 230);
+  cursor: pointer;
+}
+.introduce-back {
+  margin: 0 200px;
+}
+.introduce-back1img {
+  max-width: 1300px;
+  min-height: 500px;
+  background-image: url("./../../../utils/img/introduce/introduce1.png");
+  background-size: cover;
+}
+.introduce-back2img {
+  max-width: 1300px;
+  min-height: 500px;
+  background-image: url("./../../../utils/img/introduce/introduce2.png");
+  background-size: cover;
+}
+.introducePage p {
+  font-size: 1.2rem;
+  color: gray;
+  margin: 50px 330px 150px 400px;
+}
+
+/* History */
+.history-back {
+  margin: 0 120px;
+}
+.history-back1img {
+  max-width: 1200px;
+  min-height: 1200px;
+  background-image: url("./../../../utils/img/introduce/history1.png");
+  background-size: cover;
+  margin-left: 65px;
+}
+.history-back2img {
+  max-width: 1200px;
+  min-height: 1200px;
+  background-image: url("./../../../utils/img/introduce/history2.png");
+  background-size: cover;
+  margin-left: 10px;
+}
+.history-back3img {
+  max-width: 900px;
+  min-height: 700px;
+  background-image: url("./../../../utils/img/introduce/history3.png");
+  background-size: cover;
+  margin-left: 290px;
+  margin-bottom: 100px;
+}
+
+/* Ideology */
+.ideology-back {
+  margin: 0 200px;
+}
+.ideology-back1img {
+  max-width: 1300px;
+  min-height: 700px;
+  background-image: url("./../../../utils/img/introduce/ideology1.png");
+  background-size: cover;
+}
+.ideology-back2img {
+  max-width: 1300px;
+  min-height: 800px;
+  background-image: url("./../../../utils/img/introduce/ideology2.png");
+  background-size: cover;
+}
+.ideology-back3img {
+  max-width: 1300px;
+  min-height: 500px;
+  background-image: url("./../../../utils/img/introduce/ideology3.png");
+  background-size: cover;
+  margin-bottom: 70px;
+}
+
+/* Management */
+.management-back {
+  margin: 0 120px;
+}
+.management-back1img {
+  max-width: 1400px;
+  min-height: 500px;
+  background-image: url("./../../../utils/img/introduce/management1.png");
+  background-size: cover;
+}
+.management-back2img {
+  max-width: 1400px;
+  min-height: 600px;
+  background-image: url("./../../../utils/img/introduce/management2.png");
+  background-size: cover;
+  margin-left: 20px;
+}
+
+/* Strategy */
+.strategy-back {
+  margin: 0 120px;
+}
+.strategy-back1img {
+  max-width: 1500px;
+  min-height: 300px;
+  background-image: url("./../../../utils/img/introduce/stategy1.png");
+  background-size: cover;
+}
+.strategy-back2img {
+  max-width: 1300px;
+  min-height: 1000px;
+  background-image: url("./../../../utils/img/introduce/stategy2.png");
+  background-size: cover;
+  margin: 50px 60px;
+}
+.strategy-back3img {
+  max-width: 1400px;
+  min-height: 1000px;
+  background-image: url("./../../../utils/img/introduce/stategy3.png");
+  background-size: cover;
+}
+.strategy-back4img {
+  max-width: 1400px;
+  min-height: 500px;
+  background-image: url("./../../../utils/img/introduce/stategy4.png");
+  background-size: cover;
+  margin-left: 25px;
+}
+.strategy-back5img {
+  max-width: 1400px;
+  min-height: 600px;
+  background-image: url("./../../../utils/img/introduce/stategy5.png");
+  background-size: cover;
+  margin-top: 70px;
+}
+.strategy-back6img {
+  max-width: 1400px;
+  min-height: 1000px;
+  background-image: url("./../../../utils/img/introduce/stategy6.png");
+  background-size: cover;
+  margin: 70px 20px;
+}
