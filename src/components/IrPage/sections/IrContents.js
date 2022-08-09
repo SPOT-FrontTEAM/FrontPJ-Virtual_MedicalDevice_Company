@@ -25,8 +25,8 @@ const IrContents = ({ type }) => {
     <div className="IrContents">
       <h3 className="contentsLen">{`총 ${posts.length}건`}</h3>
       <div className="postSection">
-        {posts.slice(offset, offset + limit).map(({ id, title, date }) => (
-          <IrPost key={id} title={title} date={date} />
+        {posts.slice(offset, offset + limit).map(({ id, title, date, content }) => (
+          <IrPost key={id} title={title} date={date} content={content}/>
         ))}
       </div>
       <Pagination
