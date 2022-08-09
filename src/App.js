@@ -15,6 +15,7 @@ import History from "./components/ExplainPage/sections/History";
 import Ideology from "./components/ExplainPage/sections/Ideology";
 import Management from "./components/ExplainPage/sections/Management";
 import Strategy from "./components/ExplainPage/sections/Strategy";
+import CompanyAsk from "./components/ExplainPage/CompanyAsk";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
           <Route path="/ideology" element={<Ideology />} />
           <Route path="/management" element={<Management />} />
           <Route path="/strategy" element={<Strategy />} />
+          <Route path="/companyask" element={<CompanyAsk />} />
         </Routes>
         <Footer />
       </div>

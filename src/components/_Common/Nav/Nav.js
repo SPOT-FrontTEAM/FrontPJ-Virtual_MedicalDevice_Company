@@ -29,12 +29,32 @@ const Nav = () => {
                 setHover(false);
               }}
             >
-              <div className="list-link">회사소개</div>
+              <div
+                className="list-link"
+                onClick={() => navigate("/companyintroduce")}
+              >
+                회사소개
+              </div>
               <section className="subBar_Set_one">
                 <div className="subBar_Set-list">
-                  <article className="list_item">소개</article>
-                  <article className="list_item">오시는길</article>
-                  <article className="list_item">문의하기</article>
+                  <article
+                    className="list_item"
+                    onClick={() => navigate("/companyintroduce")}
+                  >
+                    소개
+                  </article>
+                  <article
+                    className="list_item"
+                    onClick={() => navigate("/companydirection")}
+                  >
+                    오시는길
+                  </article>
+                  <article
+                    className="list_item"
+                    onClick={() => navigate("/companyask")}
+                  >
+                    문의하기
+                  </article>
                 </div>
               </section>
             </li>
