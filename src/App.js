@@ -9,6 +9,12 @@ import "./components/LandingPage/sections/LandingPage.css";
 import LandingPage from "./components/LandingPage/LandingPage";
 import Footer from "./components/_Common/Footer/Footer";
 import IrPage from "./components/IrPage/IrPage";
+import CompanyDirections from "./components/ExplainPage/CompanyDirections";
+import CompanyIntroduce from "./components/ExplainPage/CompanyIntroduce";
+import History from "./components/ExplainPage/sections/History";
+import Ideology from "./components/ExplainPage/sections/Ideology";
+import Management from "./components/ExplainPage/sections/Management";
+import Strategy from "./components/ExplainPage/sections/Strategy";
 
 function App() {
   return (
@@ -17,8 +23,14 @@ function App() {
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/ir" element={<IrPage />} />
+          <Route path="/companydirection" element={<CompanyDirections />} />
+          <Route path="/companyintroduce" element={<CompanyIntroduce />} />
+          <Route path="/history" element={<History />} />
+          <Route path="/ideology" element={<Ideology />} />
+          <Route path="/management" element={<Management />} />
+          <Route path="/strategy" element={<Strategy />} />
         </Routes>
-      <Footer />
+        <Footer />
       </div>
     </BrowserRouter>
   );

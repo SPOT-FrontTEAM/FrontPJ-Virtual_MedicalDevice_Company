@@ -1,91 +1,95 @@
- /* navPage */
+/* navPage */
 
- .navPage-true{
-    min-height: 4rem;
-    background-color: rgb(68, 66, 66);
-    display: flex;
-    justify-content: space-around;
-    position:fixed; 
-    min-width: 100%;
-    z-index: 3;
-  }
-  .navPage-false{
-    min-height: 4rem;
-    display: flex;
-    justify-content: space-around;
-    position:fixed; 
-    min-width: 100%;
-  }
-  .navPage_Set img{
-    width: 7rem;
-    height: 2.5rem;
-    margin-top: 0.8rem;
-    margin-left: 8rem;
-  }
-  .navPage_Set-listitems{
-    color:rgba(255, 255, 255, 0.712);
-    text-align: center;
-    min-height: 4rem;
-    font-size: 1.2rem;
-  
-  }
-  .navPage_Set-listitems li{
-   margin-right: 11rem;
-   padding-top: 1.5rem;
-   position:relative;
-   float: left;
-  }
-  
-  .navPage_siteMap-bnt{
-    margin-top: 0.6rem;
-    margin-right: 5rem;
-    font-size: 1.2rem;
-    background-color: rgb(68, 66, 66) ;
-    color:rgba(255, 255, 255, 0.712);
-    min-height: 3rem;
-    border: 0cm;
-  }
-  .false{
-    display: none;
-  }
-  
-  /* SubBar */
-  .navPage_Set-listitems .subBar_Set{
-    position:absolute;
-    z-index:2 ;
-    display:none; 
-  }
-  
-  .subBar_Set-list li{
-    float: left;
-    display:block;
-    width: 100%;
-    
-  }
-  .subBar_Set-list li:hover{
-    background-color:rgb(71, 69, 69);
-  }
-  
-  .navPage_Set-listitems li a{
-    display:block;  height:40px; color:#fff; }
-  
-  
-  
-  .navPage_Set-listitems li:hover .subBar_Set{
-    display:block;
-    z-index:2 ;
-    height:4rem;
-    background-color: gray;
-    width: 180rem;
-    position: absolute;
-    left: -80rem;
-    }
-  
-  
-  
-  .subBar_Set-list a {
-     padding:5px; color:#fff; 
-  }
-  .navPage_Set-listitems:after{display:block; content:''; clear:both;}
-  
-  a{text-decoration:none;}
+.navPage-true {
+  min-height: 4rem;
+  background-color: rgb(68, 66, 66);
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  min-width: 100%;
+  z-index: 3;
+}
+.navPage-false {
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  min-width: 100%;
+}
+.navPage_Set img {
+  width: 7rem;
+  height: 2.5rem;
+  margin-top: 0.8rem;
+  margin-left: 8rem;
+}
+.navPage_Set-listitems {
+  color: rgba(255, 255, 255, 0.712);
+  text-align: center;
+  min-height: 4rem;
+  font-size: 1.2rem;
+}
+.navPage_Set-listitems li {
+  margin-right: 11rem;
+  padding-top: 1.5rem;
+  position: relative;
+  float: left;
+}
+
+.navPage_siteMap-bnt {
+  margin-top: 0.6rem;
+  margin-right: 5rem;
+  font-size: 1.2rem;
+  background-color: rgb(68, 66, 66);
+  color: rgba(255, 255, 255, 0.712);
+  min-height: 3rem;
+  border: 0cm;
+}
+.false {
+  display: none;
+}
+
+/* SubBar */
+.navPage_Set-listitems .subBar_Set {
+  position: absolute;
+  z-index: 2;
+  display: none;
+}
+
+.subBar_Set-list li {
+  float: left;
+  display: block;
+  width: 100%;
+}
+.subBar_Set-list li:hover {
+  background-color: rgb(71, 69, 69);
+}
+
+.navPage_Set-listitems li a {
+  display: block;
+  height: 40px;
+  color: #fff;
+}
+
+.navPage_Set-listitems li:hover .subBar_Set {
+  display: block;
+  z-index: 2;
+  height: 4rem;
+  background-color: gray;
+  width: 180rem;
+  position: absolute;
+  left: -80rem;
+}
+
+.subBar_Set-list a {
+  padding: 5px;
+  color: #fff;
+}
+.navPage_Set-listitems:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+a {
+  text-decoration: none;
+}
