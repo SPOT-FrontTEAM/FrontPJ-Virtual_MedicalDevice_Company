@@ -22,6 +22,7 @@ import Nurture from './components/RecruitPage/Nurture';
 import Welfare from './components/RecruitPage/Welfare';
 import JobOpening from './components/RecruitPage/JobOpening';
 
+
 function App() {
   return (
     <BrowserRouter>

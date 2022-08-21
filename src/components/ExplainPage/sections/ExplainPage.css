@@ -35,23 +35,26 @@
 }
 
 .introduce-list {
-  min-width: 700px;
-  max-height: 62px;
-  overflow: hidden;
   border-bottom: thin solid gray;
   box-sizing: border-box;
   padding-left: 80px;
+  min-height: 4rem;
+  display: flex;
+  justify-content: space-around;
+  min-width: 100%;
 }
 
 .introduce-list ul {
   font-size: 1.2rem;
   max-height: 100px;
+  width: auto;
   margin: 0 110px;
   color: gray;
 }
 
 .introduce-list li {
   float: left;
+  width: auto;
   max-height: 50px;
   font-size: 1.2rem;
   padding: 20px 86px;
