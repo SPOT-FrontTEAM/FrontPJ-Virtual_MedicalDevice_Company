@@ -21,7 +21,7 @@ import Policy from './components/RecruitPage/Policy';
 import Nurture from './components/RecruitPage/Nurture';
 import Welfare from './components/RecruitPage/Welfare';
 import JobOpening from './components/RecruitPage/JobOpening';
-
+import Recruit from './components/RecruitPage/Recruit';
 
 function App() {
   return (
@@ -42,6 +42,7 @@ function App() {
           <Route path='/nurture' element={<Nurture />} />
           <Route path='/welfare' element={<Welfare />} />
           <Route path='/jobopening' element={<JobOpening />} />
+          <Route path='/recruit' element={<Recruit />} />
         </Routes>
         <Footer />
       </div>
