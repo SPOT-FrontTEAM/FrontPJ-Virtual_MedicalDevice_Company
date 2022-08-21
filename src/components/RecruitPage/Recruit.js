@@ -86,7 +86,7 @@ function Recruit() {
           </ul>
         </div>
         {posts.map((post, i) => {
-          return <RecruitPost post={post} i={i + 1} />;
+          return <RecruitPost post={post} i={i + 1} key={post.postID} />;
         })}
       </div>
     </div>
