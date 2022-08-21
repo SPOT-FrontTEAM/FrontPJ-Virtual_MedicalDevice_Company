@@ -267,10 +267,11 @@
 
 /* CompanyAsk */
 .ask-back {
-  margin: 0 120px;
   display: flex;
-  width: 85%;
+  width: 90%;
   height: 300px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .ask-back1img {
@@ -281,7 +282,9 @@
 
 .askList {
   display: flex;
-  padding: 0 170px;
+  padding: 0 100px;
+  width: 100%;
+  margin-bottom: 80px;
 }
 
 /* AskContentes */
@@ -289,8 +292,9 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 80px;
+  padding: 50px 40px;
   cursor: pointer;
+  width: 25%;
 }
 
 .askContents .img_1 {
