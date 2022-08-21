@@ -173,3 +173,66 @@
 .JobOpeningContent .EngContent {
   color: blue;
 }
+/* Recruit-Page */
+.recruit-wrapper {
+  height: 800px;
+}
+.recruit-head {
+  display: flex;
+}
+.left-area {
+  margin-top: 20px;
+  margin-right: 70%;
+  margin-left: 5%;
+}
+
+.recruit-list {
+  height: 60px;
+  width: 90%;
+  margin-left: 70px;
+  margin-right: 70px;
+  margin-top: 30px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: #eeeeee;
+  font-size: 1rem;
+}
+.recruit-list li {
+  padding: 20px 170px;
+  float: left;
+}
+.right-area {
+  width: 300px;
+  max-height: 50px;
+}
+.right-area select {
+  width: 150px;
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  border-bottom: 1px solid gray;
+}
+
+.right-area button {
+  width: 80px;
+  height: 40px;
+}
+
+/* RecruitPost */
+.recruitpost {
+  padding-top: 0;
+}
+.recruitpost-list {
+  height: 60px;
+  width: 90%;
+  margin: 0px 70px;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  background-color: white;
+  font-size: 1rem;
+}
+.recruitpost-list li {
+  text-align: center;
+  padding: 20px 150px;
+  float: left;
+}

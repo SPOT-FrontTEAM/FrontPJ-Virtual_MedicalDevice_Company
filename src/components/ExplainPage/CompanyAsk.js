@@ -3,7 +3,6 @@ import Divide from '../_Common/Divide';
 import Nav from '../_Common/Nav/Nav';
 import TitleImg from '../_Common/TilteImg/TitleImg';
 import Greeting from '../_Common/Greeting';
-import CompanyIntroduceList from './sections/CompanyIntroduceList';
 import './sections/ExplainPage.css';
 import AskContents from './sections/AskContents';
 
