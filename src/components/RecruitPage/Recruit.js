@@ -9,7 +9,6 @@ function Recruit() {
   const title = '채용공고';
   const type = 'Recruit';
   const section = '채용공고';
-  const count = 3;
 
   const [posts, setPosts] = useState([]);
   useEffect(() => {
@@ -23,27 +22,40 @@ function Recruit() {
     });
   };
 
-  const [Selection, setSelection] = useState([]);
+  const [selection, setSelection] = useState([]);
   const selectHandler = (e) => {
-    setSelection(e.targat.value);
+    setSelection(e.target.value);
   };
 
-  //   const selectCheck = () => {
-  //     if (Selection === '신입채용') {
-  //       axios.get('/dummyData/RecruitPostData.json').then((res) => {
-  //         const result = res.data.filter(
-  //           (element) => element.type === 'newcomer'
-  //         );
-  //         const reverseRes = result.reverse();
-  //         setPosts(reverseRes);
-  //       });
-  //     } else {
-  //       axios.get('/dummyData/RecruitPostData.json').then((res) => {
-  //         const reverseRes = res.data.reverse();
-  //         setPosts(reverseRes);
-  //       });
-  //     }
-  //   };
+  const selectCheck = () => {
+    switch (selection) {
+      case '신입채용':
+        axios.get('/dummyData/RecruitPostData.json').then((res) => {
+          const result = res.data.filter(
+            (element) => element.type === 'newcomer'
+          );
+          const reverseRes = result.reverse();
+          setPosts(reverseRes);
+        });
+
+        break;
+      case '경력채용':
+        axios.get('/dummyData/RecruitPostData.json').then((res) => {
+          const result = res.data.filter(
+            (element) => element.type === 'career'
+          );
+          const reverseRes = result.reverse();
+          setPosts(reverseRes);
+        });
+        break;
+      default:
+        axios.get('/dummyData/RecruitPostData.json').then((res) => {
+          const reverseRes = res.data.reverse();
+          setPosts(reverseRes);
+        });
+    }
+  };
+
   return (
     <div>
       <Nav />
@@ -52,27 +64,29 @@ function Recruit() {
       <div className='recruit-wrapper'>
         <div className='recruit-head'>
           <div className='left-area'>
-            <h2>{`총 ${count}건`}</h2>
+            <h2>{`총 ${posts.length}건`}</h2>
           </div>
           <div className='right-area'>
-            <select defaultValue={'전체'} onChange={selectHandler}>
+            <select defaultValue={'전체'} onClick={selectHandler}>
               <option>전체</option>
               <option>신입채용</option>
               <option>경력채용</option>
             </select>
-            <button className='rigth-btn'>검색</button>
+            <button className='rigth-btn' onClick={selectCheck}>
+              검색
+            </button>
           </div>
         </div>
         <div className='recruit-list'>
           <ul>
-            <li style={{ paddingRight: '0px' }}>번호</li>
-            <li>구분</li>
-            <li>제목</li>
-            <li>게시기간</li>
+            <li className='num'>번호</li>
+            <li className='type'>구분</li>
+            <li className='title'>제목</li>
+            <li className='date'>게시기간</li>
           </ul>
         </div>
         {posts.map((post, i) => {
-          <RecruitPost post={post} i={i + 1} />;
+          return <RecruitPost post={post} i={i + 1} key={post.postID} />;
         })}
       </div>
     </div>
