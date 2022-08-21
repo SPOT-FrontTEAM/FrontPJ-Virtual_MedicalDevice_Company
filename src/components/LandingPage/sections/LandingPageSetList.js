@@ -6,39 +6,24 @@ const LandingPageSetList = () => {
       <div className='landingPage_Set-list'>
         <ul className='landingPage_Set-listitems'>
           <li>
-            {' '}
-            <img
-              className='list-image'
-              alt='list'
-              src='images/list1.png'
-              style={{ marginLeft: '45px', marginBottom: '10px' }}
-            ></img>{' '}
-            Ultrasound System{' '}
+            <img className='list-image' alt='list' src='images/list1.png'></img>
+            <p>Ultrasound System </p>
           </li>
           <li>
-            {' '}
-            <img
-              className='list-image'
-              alt='list'
-              src='images/list2.png'
-              style={{ marginLeft: '45px' }}
-            ></img>
-            Digital Radiography{' '}
+            <img className='list-image' alt='list' src='images/list2.png'></img>
+            <p>Digital Radiography</p>
           </li>
           <li>
-            {' '}
             <img alt='list' className='list-image' src='images/list3.png'></img>
-            Portable CT{' '}
+            <p>Portable CT</p>
           </li>
           <li>
-            {' '}
             <img className='list-image' alt='list' src='images/list4.png'></img>
-            고객 문의{' '}
+            <p>고객 문의</p>
           </li>
           <li>
-            {' '}
             <img className='list-image' alt='list' src='images/list5.png'></img>
-            서비스 문의{' '}
+            <p>서비스 문의</p>
           </li>
         </ul>
       </div>
