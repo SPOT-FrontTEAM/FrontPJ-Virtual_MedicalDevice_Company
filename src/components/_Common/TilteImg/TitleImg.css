@@ -17,11 +17,17 @@
   background-size: cover;
   background-image: url(./../../../utils/img/back/back3.jpg);
 }
-.TitleImg .Recruit {
+.img_Recruit {
   background-position: center;
   background-size: cover;
-  background-image: url(./../../../utils/img/back/back4.jpg);
+  background-image: url(./../../../utils/img/back/back5.jpg);
 }
+.img_Recruit h1 {
+  color: aliceblue;
+  font-size: 2rem;
+  text-shadow: 1px 1px 1px gray;
+}
+
 .img_Ir h1 {
   color: aliceblue;
   font-size: 2rem;
