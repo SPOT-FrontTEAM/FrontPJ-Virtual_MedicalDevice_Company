@@ -20,7 +20,7 @@
 
 ### Landing-Page
 
-<img src="./ReadmeSource/landingPage.gif>
+![landingPage](https://user-images.githubusercontent.com/105937460/185781380-33850153-0d89-45eb-b40d-8f79ddb2870b.gif)
 
 1. Swiper이용 fullPage 구현
 2. Swiper이용 전환 및 애니메이션 구현
@@ -28,12 +28,12 @@
 
 ### ExplainPage
 
-<img src="./ReadmeSource/explainPage.gif>
+![explainPage](https://user-images.githubusercontent.com/105937460/185781355-ee7d7843-4b65-4fb6-8ad0-5eff0a7ee9c8.gif)
 
 1. Portal이용 모달창 구현
 
 ### IR-Page
 
-<img src="./ReadmeSource/irPage.gif>
+![irPage](https://user-images.githubusercontent.com/105937460/185781339-802b2056-c621-4bb9-a446-ab58005b3d4f.gif)
 
 ### Recruit-Page
