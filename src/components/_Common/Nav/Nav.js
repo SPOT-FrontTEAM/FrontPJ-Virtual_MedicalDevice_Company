@@ -96,13 +96,38 @@ const Nav = () => {
                 setHover(false);
               }}
             >
-              <div className='list-link'>인재채용</div>
+              <div
+                className='list-link'
+                onClick={() => navigate('/jobopening')}
+              >
+                인재채용
+              </div>
               <section className='subBar_Set_three'>
                 <div className='subBar_Set-list'>
-                  <article className='list_item'>인재상</article>
-                  <article className='list_item'>인사정책</article>
-                  <article className='list_item'>인재육성</article>
-                  <article className='list_item'>복리후생</article>
+                  <article
+                    className='list_item'
+                    onClick={() => navigate('/jobopening')}
+                  >
+                    인재상
+                  </article>
+                  <article
+                    className='list_item'
+                    onClick={() => navigate('/policy')}
+                  >
+                    인사정책
+                  </article>
+                  <article
+                    className='list_item'
+                    onClick={() => navigate('/nurture')}
+                  >
+                    인재육성
+                  </article>
+                  <article
+                    className='list_item'
+                    onClick={() => navigate('/welfare')}
+                  >
+                    복리후생
+                  </article>
                   <article className='list_item'>채용공고</article>
                 </div>
               </section>
