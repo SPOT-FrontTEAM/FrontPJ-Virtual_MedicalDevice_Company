@@ -36,5 +36,13 @@
 
 ![irPage](https://user-images.githubusercontent.com/105937460/185781339-802b2056-c621-4bb9-a446-ab58005b3d4f.gif)
 
+1. potal이용 게시글 모달창 구현
+2. 페이지네이션 구현
+
 ### Recruit-Page
 
+![recruitPage](https://user-images.githubusercontent.com/105937460/185783880-fb28ec60-f518-4d02-b8c1-a3ed96349a15.gif)
+
+1. 인재채용 정보 작성
+2. 인재채용 공지 페이지 구현
+3. 게시글 필터링 구현
