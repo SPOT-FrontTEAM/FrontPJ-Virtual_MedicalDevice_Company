@@ -14,7 +14,6 @@ const CompanyAsk = () => {
     <div>
       <Nav />
       <TitleImg title='문의하기' type='Direction' />
-      <CompanyIntroduceList />
       <Divide division='회사소개' section='문의하기' />
       <Greeting title='삼성메디슨 홈페이지를 방문해 주셔서 감사합니다.' />
       <div className='ask-back'>
