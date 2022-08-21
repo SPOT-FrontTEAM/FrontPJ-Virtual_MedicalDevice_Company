@@ -128,7 +128,12 @@ const Nav = () => {
                   >
                     복리후생
                   </article>
-                  <article className='list_item'>채용공고</article>
+                  <article
+                    className='list_item'
+                    onClick={() => navigate('/recruit')}
+                  >
+                    채용공고
+                  </article>
                 </div>
               </section>
             </li>

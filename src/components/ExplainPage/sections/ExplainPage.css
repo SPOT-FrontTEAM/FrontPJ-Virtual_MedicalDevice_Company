@@ -38,7 +38,6 @@
   border-bottom: thin solid gray;
   box-sizing: border-box;
   padding-left: 80px;
-  min-height: 4rem;
   display: flex;
   justify-content: space-around;
   min-width: 100%;
