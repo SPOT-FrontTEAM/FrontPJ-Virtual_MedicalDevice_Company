@@ -9,7 +9,7 @@ import "./sections/IrPage.css";
 const IrPage = () => {
   const title = "기업 개요";
   const type = "Ir";
-  const section = "경영정보";
+  const section = "인사정책";
   const divideType = "management";
   const greeting = "공시 및 공고";
 
