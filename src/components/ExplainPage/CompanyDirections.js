@@ -1,8 +1,8 @@
-import { React, useEffect } from "react";
-import TitleImg from "../_Common/TilteImg/TitleImg";
-import Nav from "../_Common/Nav/Nav";
-import Divide from "../_Common/Divide";
-import "./sections/ExplainPage.css";
+import { React, useEffect } from 'react';
+import TitleImg from '../_Common/TilteImg/TitleImg';
+import Nav from '../_Common/Nav/Nav';
+import Divide from '../_Common/Divide';
+import './sections/ExplainPage.css';
 const { kakao } = window;
 
 const CompanyDirections = () => {
@@ -23,11 +23,11 @@ const CompanyDirections = () => {
   //   "강원도 홍천군 남면 한서로 3366",
   //   "경북 구미시 공단로 244 (구)공단동 259번지",
   // ];
-  const title = "오시는 길";
-  const type = "Direction";
+  const title = '오시는 길';
+  const type = 'Direction';
 
   useEffect(() => {
-    let container = document.getElementById("map");
+    let container = document.getElementById('map');
 
     let options = {
       center: new kakao.maps.LatLng(37.536755, 127.132437),
@@ -47,20 +47,20 @@ const CompanyDirections = () => {
   }, []);
 
   return (
-    <div className="companyDirectionPage">
+    <div className='companyDirectionPage'>
       <Nav />
       <TitleImg title={title} type={type} />
-      <Divide division="회사소개" section={title} />
-      <div className="company">
-        <h1 className="companyName">삼성메디슨 강동 사업장</h1>
-        <div id="map" style={{ width: "100%", height: "450px" }}></div>
-        <div className="companyAddress">
+      <Divide division='회사소개' section={title} />
+      <div className='company'>
+        <h1 className='companyName'>삼성메디슨 강동 사업장</h1>
+        <div id='map' style={{ width: '100%', height: '450px' }}></div>
+        <div className='companyAddress'>
           <h2>주소</h2>
           <p>서울시 강동구 천호대로 1077 이스트센트럴타워 삼성메디슨</p>
           <hr
             style={{
-              borderTop: "1px dashed rgb(112, 110, 110)",
-              maxWidth: "1250px",
+              borderTop: '1px dashed rgb(112, 110, 110)',
+              maxWidth: '1250px',
             }}
           ></hr>
           <h2>찾아오시는 길</h2>
