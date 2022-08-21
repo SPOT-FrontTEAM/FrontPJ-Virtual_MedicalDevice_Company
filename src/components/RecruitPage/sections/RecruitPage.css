@@ -1,0 +1,176 @@
+/* QuoteBox */
+.QuoteBox {
+  background-position: center;
+  background-size: cover;
+  background-image: url(./../../../utils/img/back/back2.jpg);
+
+  margin-left: auto;
+  margin-right: auto;
+  width: 95%;
+
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5vh;
+}
+.QuoteBox img {
+  width: 2%;
+  margin-top: 5vh;
+  margin-bottom: 5vh;
+}
+.QuoteBox p {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  color: #f2f2f2;
+  font-size: 1.3rem;
+}
+
+/* Policy */
+.Policy .management {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 5vh;
+}
+/* Nurture */
+.NurtureContent {
+  display: flex;
+  flex-direction: column;
+
+  align-items: center;
+}
+.NurtureContent .nurture {
+  width: 50%;
+  margin-bottom: 5vh;
+}
+.NurtureContent h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-top: 5vh;
+  margin-bottom: 1vh;
+}
+.NurtureContent p {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin-bottom: 5vh;
+}
+
+/* welfareContent */
+.WelfareContent {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.WelfareContent section {
+  display: flex;
+}
+.WelfareContent .sectionOne {
+  border-top: solid 2px black;
+}
+.WelfareContent .sectionTwo {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+.WelfareContent article {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.WelfareContent .imgArea {
+  width: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.WelfareContent h2 {
+  color: navy;
+  font-size: 1.5rem;
+}
+.WelSubContent li {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.WelfareContent .imgArea img {
+  width: 100px;
+  height: 100px;
+}
+.WelfareContent .contentArea {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.WelSubContent {
+  display: flex;
+
+  justify-content: center;
+}
+.WelSubContent img {
+  width: 30%;
+  margin-left: 7px;
+  margin-right: 7px;
+  margin-bottom: 14px;
+}
+/* JobOpening */
+.JobOpening {
+}
+.JobOpeningGreeting {
+  width: 95%;
+}
+.JobOpeningContent {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.JobOpeningContent section {
+  display: flex;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.JobOpeningContent .SetionOne {
+  border-top: solid 2px black;
+}
+.JobOpeningContent .SetionTwo {
+  border-top: solid 1px gray;
+  border-bottom: solid 1px gray;
+}
+.JobOpeningContent .SetionThree {
+  border-bottom: solid 1px gray;
+}
+.JobOpeningContent article {
+  padding-left: 20px;
+  padding-right: 20px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.JobOpeningContent .EngTitle {
+  color: navy;
+  font-size: 2.4rem;
+}
+.JobOpeningContent .krTitle {
+  color: darkgray;
+  font-size: 1.4rem;
+}
+.JobOpeningContent p {
+
+  color: darkgray;
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+.JobOpeningContent .EngContent {
+  color: blue;
+}

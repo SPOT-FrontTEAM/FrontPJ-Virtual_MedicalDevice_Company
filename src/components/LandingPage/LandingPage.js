@@ -13,6 +13,7 @@ import LandingExplainSection from "./sections/LadingExplainSection";
 import LandingIrSection from "./sections/LandingIrSection";
 import Nav from "../_Common/Nav/Nav";
 import LandingMainSection from "./sections/LandingMainSection";
+import LandingRecruitSection from "./sections/LandingRecruitSection";
 
 export default function LandingPage() {
   const scroll = "<<<  Scrolling Area  >>>";
@@ -44,7 +45,9 @@ export default function LandingPage() {
         <SwiperSlide className="section_3">
           <LandingIrSection />
         </SwiperSlide>
-        <SwiperSlide className="section_4"></SwiperSlide>
+        <SwiperSlide className="section_4">
+          <LandingRecruitSection />
+        </SwiperSlide>
       </Swiper>
       <div className="footerScroll">
         <div className="scrollButton">{scroll}</div>
